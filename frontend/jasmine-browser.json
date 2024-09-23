@@ -1,0 +1,15 @@
+{
+  "srcDir": "dist",
+  "specDir": "dist",
+  "helpers": [
+      "../node_modules/jasmine-core/lib/jasmine-core/jasmine.css"
+  ],
+  "styles": [],
+  "scripts": [],
+  "specs": [
+      "**/*[sS]pec.js"
+  ],
+  "reporters": [
+      "html"
+  ]
+}

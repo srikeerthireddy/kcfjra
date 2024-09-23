@@ -1,0 +1,12 @@
+
+{
+  "name": "instagram-webapp",
+  "private": true,
+  "scripts": {
+    "frontend": "cd frontend && npm i && npm start",
+    "backend": "cd backend && npm i && mkdir -p data && curl --output data/test_db.sqlite https://kq-storage.s3.ap-south-1.amazonaws.com/Simulated_work_backend/milestone33.sqlite && node app.js",
+    "test:serve":"cd frontend && npm i && npm run test:serve"
+
+  
+  }
+}
